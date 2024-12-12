@@ -1,32 +1,119 @@
 // === Exercícios de Condicionais ===
 // 1. Verifique se uma pessoa pode votar com base em sua idade.
-function podeVotar(idade) {
+
+
+
+
+// function podeVotar(idade) {
+
+
+//     idade = parseInt(prompt("digite sua idade"))
+
+//     if (idade > 18) {
+
+//         console.log("Você é pode votar");
+
+//     }
+//     else  {
+
+//         console.log("você é menor, não pode votar");
+
+
+//     }
+
+
+// }
+
+
+// document.addEventListener("DOMContentLoaded", podeVotar())
+
+
+// 2. Determine o maior número entre três números.
+// function maiorNumero(a, b, c) {
+
+
+
+//     a = parseInt(prompt("coloque 1° numero"))
+//     b = parseInt(prompt("coloque 2° numero"))
+//     c = parseInt(prompt("coloque 3° numero"))
+
+//     console.log(a);
+//     console.log(b);
+//     console.log(c);
+
+
+//     if (a > b && a > c)
+//     {
+
+//         console.log("o primeiro numero " + "( "+ a + " )" + " é o maior numero");
+
+//     }
+//     else if (b > c && b > a)
+//     {
+
+//         console.log("o segundo numero " +  "( "+   b   + " )" + " é o maior numero");
+
+//     }
+//     else
+//     {
+
+//         console.log( "o terceiro numero " + "( " + c + " ) ," + " é o maior numero");
+
+//     }
+
+// }
+
+// document.addEventListener("DOMContentLoaded", maiorNumero())
+
+// 3. Avalie se um número é positivo, negativo ou zero.
+// function tipoNumero(num) {
+
+
+
+//         num = parseInt(prompt("coloque um numero positivo, negativo ou zero"))
+
+
+//         console.log(num);
+
+
+//         if (num > 1)
+//         {
+
+//             console.log("positivo");
+
+//         }
+//         else if (num < 0)
+//         {
+
+//             console.log("negativo");
+
+//         }
+//         else
+//         {
+
+//             console.log( "o numero é zero");
+
+//         }
+
+//     }
+
+//     document.addEventListener("DOMContentLoaded", tipoNumero())
+
+// 4. Determine se uma loja está aberta com base na hora atual (0-23).
+
+
+function lojaAberta(hora) {
+
+    hora = (prompt("Horario?"));
 
 
     
-}
-
-// 2. Determine o maior número entre três números.
-function maiorNumero(a, b, c) {
-
-
+    console.log(hora);
 
 }
 
-// 3. Avalie se um número é positivo, negativo ou zero.
-function tipoNumero(num) {
 
-
-
-}
-
-// 4. Determine se uma loja está aberta com base na hora atual (0-23).
-function lojaAberta(hora) {
-
-
-
-}
-
+document.addEventListener("DOMContentLoaded", lojaAberta())
 // 5. Avalie se uma palavra é longa (mais de 10 caracteres).
 
 
@@ -86,7 +173,7 @@ let palavras = ["gato", "elefante", "sol", "mar", "montanha"];
 // 6. Use filter para encontrar quais filmes tem o genero ação.
 let filmes = [
     {
-        nome: "Os Vingadores", 
+        nome: "Os Vingadores",
         genero: "Açâo"
     },
     {
@@ -95,6 +182,6 @@ let filmes = [
     },
     {
         nome: "O Bug da linha 42.",
-        genero: "Terror"        
+        genero: "Terror"
     }
 ];
